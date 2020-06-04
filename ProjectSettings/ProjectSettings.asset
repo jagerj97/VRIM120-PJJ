@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 18
-  productGUID: aa093645c008472d58a707c023af614a
+  productGUID: 78542f558bef2014bb9c38b8af90c7af
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,11 +13,11 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: UnityApp
+  productName: VRIM120-PJJ-master_2
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
-  m_ShowUnitySplashScreen: 0
+  m_ShowUnitySplashScreen: 1
   m_ShowUnitySplashLogo: 1
   m_SplashScreenOverlayOpacity: 1
   m_SplashScreenAnimation: 1
@@ -42,8 +42,8 @@ PlayerSettings:
   m_SplashScreenLogos: []
   m_VirtualRealitySplashScreen: {fileID: 0}
   m_HolographicTrackingLossScreen: {fileID: 0}
-  defaultScreenWidth: 1280
-  defaultScreenHeight: 720
+  defaultScreenWidth: 1024
+  defaultScreenHeight: 768
   defaultScreenWidthWeb: 960
   defaultScreenHeightWeb: 600
   m_StereoRenderingPath: 0
@@ -69,7 +69,7 @@ PlayerSettings:
   androidBlitType: 0
   defaultIsNativeResolution: 1
   macRetinaSupport: 1
-  runInBackground: 0
+  runInBackground: 1
   captureSingleScreen: 0
   muteOtherAudioSources: 0
   Prepare IOS For Recording: 0
@@ -81,7 +81,7 @@ PlayerSettings:
   bakeCollisionMeshes: 0
   forceSingleInstance: 0
   useFlipModelSwapchain: 1
-  resizableWindow: 0
+  resizableWindow: 1
   useMacAppStoreValidation: 0
   macAppStoreCategory: public.app-category.games
   gpuSkinning: 1
@@ -94,7 +94,7 @@ PlayerSettings:
   visibleInBackground: 1
   allowFullscreenSwitch: 1
   graphicsJobMode: 0
-  fullscreenMode: 3
+  fullscreenMode: 1
   xboxSpeechDB: 0
   xboxEnableHeadOrientation: 0
   xboxEnableGuest: 0
@@ -151,6 +151,8 @@ PlayerSettings:
       sharedDepthBuffer: 1
       dashSupport: 1
       lowOverheadMode: 0
+      protectedContext: 0
+      v2Signing: 0
     enable360StereoCapture: 0
   isWsaHolographicRemotingEnabled: 0
   protectGraphicsMemory: 0
@@ -251,7 +253,7 @@ PlayerSettings:
   iOSAutomaticallyDetectAndAddCapabilities: 1
   appleEnableProMotion: 0
   clonedFromGUID: c0afd0d1d80e3634a9dac47e8a0426ea
-  templatePackageId: com.unity.template.3d@2.3.3
+  templatePackageId: com.unity.template.3d@3.1.4
   templateDefaultScene: Assets/Scenes/SampleScene.unity
   AndroidTargetArchitectures: 1
   AndroidSplashScreenScale: 0
@@ -304,21 +306,12 @@ PlayerSettings:
   - m_BuildTarget: WebGLSupport
     m_APIs: 0b000000
     m_Automatic: 1
-  - m_BuildTarget: WindowsStandaloneSupport
-    m_APIs: 02000000
-    m_Automatic: 0
-  - m_BuildTarget: MacStandaloneSupport
-    m_APIs: 10000000
-    m_Automatic: 0
-  - m_BuildTarget: LinuxStandaloneSupport
-    m_APIs: 15000000
-    m_Automatic: 0
   m_BuildTargetVRSettings:
   - m_BuildTarget: Standalone
-    m_Enabled: 0
+    m_Enabled: 1
     m_Devices:
-    - Oculus
     - OpenVR
+    - Oculus
   openGLRequireES31: 0
   openGLRequireES31AEP: 0
   openGLRequireES32: 0
@@ -453,7 +446,7 @@ PlayerSettings:
   switchDataLossConfirmation: 0
   switchUserAccountLockEnabled: 0
   switchSystemResourceMemory: 16777216
-  switchSupportedNpadStyles: 3
+  switchSupportedNpadStyles: 22
   switchNativeFsCacheSize: 32
   switchIsHoldTypeHorizontal: 0
   switchSupportedNpadCount: 8
