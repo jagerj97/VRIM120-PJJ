@@ -12,3 +12,8 @@ Desktop.ini
 /*.sln
 *.swp
 *.vcxproj.user
+
+# Unity
+/Library
+/Logs
+/Temp
