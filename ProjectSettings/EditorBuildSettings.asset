@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/PJJ_03.unity
+    guid: 9732cfb3402b066448912fdfebf88854
   m_configObjects: {}
